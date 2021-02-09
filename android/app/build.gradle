@@ -36,6 +36,7 @@ android {
         applicationId "org.sslabs.store_management"
         minSdkVersion 23
         targetSdkVersion 29
+        multiDexEnabled true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
